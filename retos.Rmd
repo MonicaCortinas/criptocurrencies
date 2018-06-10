@@ -1,0 +1,66 @@
+---
+title: "Monedas digitales; Economía digital e IVA"
+author: Mónica Cortiñas. INARBE-UPNA
+date: 15 Junio 2018
+output:
+  revealjs::revealjs_presentation:
+    css: propio.css
+    center: true
+    reveal_options:
+      slideNumber: true
+      previewLinks: true
+    
+---
+# Monedas digitales; Economía digital e IVA
+Mónica Cortiñas. INARBE-UPNA
+
+## ¿Qué es una criptomoneda?
+
+- Desde el punto de vista técnico
+- Desde el punto de vista fiscal
+
+## Desde el punto de vista del consumidor:
+
+## ¿es un medio de pago?
+
+<img src="images/bitcoinconference.png" width="50%"><br>
+
+<small><a href="https://news.bitcoin.com/miami-bitcoin-conference-stops-accepting-bitcoin-due-to-fees-and-congestion/" target="_blank">Fuente: BitCoin.com</a></small>
+
+## ¿es un producto de inversión?
+
+<img src="images/petro.png" width="50%"><br>
+
+<small><a href="http://www.bbc.com/mundo/noticias-america-latina-43136611">Fuente: BBC</a></small>
+
+
+## ¿es una experiencia?
+
+
+<img src="images/bitcoin.gif"><img src="images/bitcoin2.gif">
+
+
+## Ejemplos (I)
+
+<img src="images/james.png" width="55%"><br>
+<small><a href="https://www.euribor.com.es/2018/05/22/el-jugador-del-bayern-de-munich-james-rodriguez-lanza-su-criptomoneda-para-impulsar-su-valor-de-marca/#" target="_blank">Fuente: Cinco Días</a></small>
+
+## Ejemplos (I): SelfShell
+
+<img src="images/shelfsell.png"  width="75%"><br>
+<small><a href="https://selfsell.com/" target="_blank">Fuente: ShelfSell</a></small>
+
+##  Valor de las criptomonedas para el consumidor
+
+Distintos segmentos por motivación: 
+
+- Como elemento de diferenciación e identificación
+- Como servicio de experiencia
+- No una única motivación
+
+## A tener en cuenta por el regulador
+
+- No es esperable desaparición del mercado a corto plazo
+- Aparición de nichos especializados en necesidades distintas
+
+
