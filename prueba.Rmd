@@ -1,11 +1,10 @@
 ---
-title: "Monedas digitales; Economía digital e IVAa"
-subtitle: "Jornada: Retos de la Economía Digital"
-author: "Mónica Cortiñas"
-date: "15 dejunio de 2018"
+title: "Presentation Ninja"
+subtitle: "⚔<br/>with xaringan"
+author: "Yihui Xie"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
-    css: [default, rutgers, rutgers-fonts]  
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -13,7 +12,9 @@ output:
       countIncrementalSlides: false
 ---
 
-
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
 
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
@@ -39,8 +40,7 @@ class: inverse, center, middle
 
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
 
-
-```r
+```{r eval=FALSE, tidy=FALSE}
 devtools::install_github("yihui/xaringan")
 ```
 
@@ -65,7 +65,7 @@ You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rs
 ]
 
 ---
-background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
+background-image: url(`r xaringan:::karl`)
 background-position: 50% 50%
 class: center, bottom, inverse
 
@@ -102,7 +102,7 @@ It is important to be familiar with remark.js before you can understand the opti
 .footnote[[*] It is different with Pandoc's Markdown! It is limited but should be enough for presentation purposes. Come on... You do not need a slide for the Table of Contents! Well, the Markdown support in remark.js [may be improved](https://github.com/gnab/remark/issues/142) in the future.]
 
 ---
-background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
+background-image: url(`r xaringan:::karl`)
 background-size: cover
 class: center, bottom, inverse
 
@@ -192,40 +192,23 @@ Limitations:
 
 # R Code
 
-
-```r
+```{r comment='#'}
 # a boring regression
 fit = lm(dist ~ 1 + speed, data = cars)
 coef(summary(fit))
-```
-
-```
-#               Estimate Std. Error   t value     Pr(>|t|)
-# (Intercept) -17.579095  6.7584402 -2.601058 1.231882e-02
-# speed         3.932409  0.4155128  9.463990 1.489836e-12
-```
-
-```r
 dojutsu = c('地爆天星', '天照', '加具土命', '神威', '須佐能乎', '無限月読')
 grep('天', dojutsu, value = TRUE)
-```
-
-```
-# character(0)
 ```
 
 ---
 
 # R Plots
 
-
-```r
+```{r cars, fig.height=4, dev='svg'}
 par(mar = c(4, 4, 1, .1))
 plot(cars, pch = 19, col = 'darkgray', las = 1)
 abline(fit, lwd = 2)
 ```
-
-![](index_files/figure-html/cars-1.svg)<!-- -->
 
 ---
 
@@ -233,66 +216,9 @@ abline(fit, lwd = 2)
 
 If you want to generate a table, make sure it is in the HTML format (instead of Markdown or other formats), e.g.,
 
-
-```r
+```{r}
 knitr::kable(head(iris), format = 'html')
 ```
-
-<table>
- <thead>
-  <tr>
-   <th style="text-align:right;"> Sepal.Length </th>
-   <th style="text-align:right;"> Sepal.Width </th>
-   <th style="text-align:right;"> Petal.Length </th>
-   <th style="text-align:right;"> Petal.Width </th>
-   <th style="text-align:left;"> Species </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:right;"> 5.1 </td>
-   <td style="text-align:right;"> 3.5 </td>
-   <td style="text-align:right;"> 1.4 </td>
-   <td style="text-align:right;"> 0.2 </td>
-   <td style="text-align:left;"> setosa </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 4.9 </td>
-   <td style="text-align:right;"> 3.0 </td>
-   <td style="text-align:right;"> 1.4 </td>
-   <td style="text-align:right;"> 0.2 </td>
-   <td style="text-align:left;"> setosa </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 4.7 </td>
-   <td style="text-align:right;"> 3.2 </td>
-   <td style="text-align:right;"> 1.3 </td>
-   <td style="text-align:right;"> 0.2 </td>
-   <td style="text-align:left;"> setosa </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 4.6 </td>
-   <td style="text-align:right;"> 3.1 </td>
-   <td style="text-align:right;"> 1.5 </td>
-   <td style="text-align:right;"> 0.2 </td>
-   <td style="text-align:left;"> setosa </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 5.0 </td>
-   <td style="text-align:right;"> 3.6 </td>
-   <td style="text-align:right;"> 1.4 </td>
-   <td style="text-align:right;"> 0.2 </td>
-   <td style="text-align:left;"> setosa </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 5.4 </td>
-   <td style="text-align:right;"> 3.9 </td>
-   <td style="text-align:right;"> 1.7 </td>
-   <td style="text-align:right;"> 0.4 </td>
-   <td style="text-align:left;"> setosa </td>
-  </tr>
-</tbody>
-</table>
 
 ---
 
@@ -306,24 +232,19 @@ See the next page for two HTML widgets.
 
 ---
 
-
-```r
+```{r out.width='100%', fig.height=6, eval=require('leaflet')}
 library(leaflet)
 leaflet() %>% addTiles() %>% setView(-93.65, 42.0285, zoom = 17)
 ```
 
 ---
 
-
-```r
+```{r eval=require('DT'), tidy=FALSE}
 DT::datatable(
   head(iris, 10),
   fillContainer = FALSE, options = list(pageLength = 8)
 )
 ```
-
-<!--html_preserve--><div id="htmlwidget-f1ddd013954fd0eb8046" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f1ddd013954fd0eb8046">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
 
 ---
 
@@ -443,21 +364,16 @@ This is invalid R code, so it is a plain fenced code block that is not executed.
 .pull-right[
 An example using `{{}}`:
 
-    ```{r tidy=FALSE}
+    `r ''````{r tidy=FALSE}
     if (TRUE) {
     *{{ message("Very important!") }}
     }
     ```
 Output:
-
-```r
+```{r tidy=FALSE}
 if (TRUE) {
-* message("Very important!") 
+{{ message("Very important!") }}
 }
-```
-
-```
-## Very important!
 ```
 
 It is valid R code so you can run it. Note that `{{}}` can wrap an R expression of multiple lines.
@@ -470,7 +386,7 @@ It is valid R code so you can run it. Note that `{{}}` can wrap an R expression 
 An example of using the trailing comment `#<<` to highlight lines:
 
 ````markdown
-```{r tidy=FALSE}
+`r ''````{r tidy=FALSE}
 library(ggplot2)
 ggplot(mtcars) + 
   aes(mpg, disp) + 
@@ -481,13 +397,12 @@ ggplot(mtcars) +
 
 Output:
 
-
-```r
+```{r tidy=FALSE, eval=FALSE}
 library(ggplot2)
 ggplot(mtcars) + 
   aes(mpg, disp) + 
-* geom_point() +
-* geom_smooth()
+  geom_point() +   #<<
+  geom_smooth()    #<<
 ```
 
 ---
@@ -588,18 +503,8 @@ See [yihui/xaringan#83](https://github.com/yihui/xaringan/issues/83) for an exam
 
 Don't want to learn CSS? Okay, you can use some user-contributed themes. A theme typically consists of two CSS files `foo.css` and `foo-fonts.css`, where `foo` is the theme name. Below are some existing themes:
 
-
-```r
+```{r}
 names(xaringan:::list_css())
-```
-
-```
-##  [1] "default-fonts"    "default"          "duke-blue"       
-##  [4] "hygge-duke"       "hygge"            "metropolis-fonts"
-##  [7] "metropolis"       "rladies-fonts"    "rladies"         
-## [10] "robot-fonts"      "robot"            "rutgers-fonts"   
-## [13] "rutgers"          "tamu-fonts"       "tamu"            
-## [16] "uo-fonts"         "uo"
 ```
 
 ---

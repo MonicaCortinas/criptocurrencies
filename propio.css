@@ -1,0 +1,10 @@
+/* Add image and change bg color */
+    .title-slide {
+        background-image: url(images/upna.jpg);
+        background-position: 9% 15%;
+        background-size: 105px;
+        background-color: #fff;
+            padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+    }
+    
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css")   
