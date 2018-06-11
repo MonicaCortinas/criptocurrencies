@@ -5,7 +5,7 @@ author: "Mónica Cortiñas. INARBE-UPNA"
 date: "15 de junio de 2018"
 output:
   xaringan::moon_reader:
-    css: [default, rutgers, rutgers-fonts, propio.css, fontawesome-all.css]  
+    css: [default, rutgers, rutgers-fonts, propio.css]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -15,11 +15,12 @@ output:
 
 background-image: url(images/bitcoin.jpg)
 background-position: 50% 50%
-class: center, middle, inverse
+class: center, bottom, inverse
 
 # ¿Qué es una criptomoneda?
 
 ---
+class: rigth, top
 
 # <i class="fab fa-bitcoin"></i> ¿Qué es una criptomoneda?
 
@@ -27,40 +28,68 @@ class: center, middle, inverse
 
 --
 
-- ... técnico **<i class="far fa-frown"></i>**
+- ... técnico **<i class="fa fa-frown"></i>**
 
 --
 
-- ... fiscal **<i class="far fa-frown"></i> **
+- ... fiscal **<i class="fa fa-frown"></i> **
 
 --
 
-- Desde el punto de vista del **mercado** **<i class="far fa-smile"></i> **
+- Desde el punto de vista del **mercado** **<i class="fa fa-smile"></i> **
 
 ---
 
-## Desde el punto de vista del consumidor:
+
+background-image: url(images/bitcoinconference.png)
+background-position: 50% 50%
+class: center, bottom, inverse
+
+# Desde el punto de vista del consumidor:
+
 ---
 
-## ¿es un medio de pago?
+background-image: url(images/bitcoinconference.png)
+background-position: 50% 50%
+class: center, bottom, inverse
+# ¿es un medio de pago?
 
-<img src="images/bitcoinconference.png" width="50%"><br>
+
+
+???
 
 <small><a href="https://news.bitcoin.com/miami-bitcoin-conference-stops-accepting-bitcoin-due-to-fees-and-congestion/" target="_blank">Fuente: BitCoin.com</a></small>
 ---
-## ¿es un producto de inversión?
+background-image: url("/images/petro.png")
+background-position: 50% 50%
+class: center, bottom, inverse
 
-<img src="images/petro.png" width="50%"><br>
+# ¿es un producto de inversión?
+
+
+???
 
 <small><a href="http://www.bbc.com/mundo/noticias-america-latina-43136611">Fuente: BBC</a></small>
 
 ---
 ## ¿es una experiencia?
+.pull-left {
+  float: left;
+  width: 47%;
+  <img src="images/bitcoin.gif">
+}
+.pull-right {
+  float: right;
+  width: 47%;
+  <img src="images/bitcoin2.gif">
+}
 
-
-<img src="images/bitcoin.gif"><img src="images/bitcoin2.gif">
 
 ---
+## ¿es un activo "habilitador"?
+
+---
+
 ## Ejemplos (I)
 
 <img src="images/james.png" width="55%"><br>
@@ -68,7 +97,7 @@ class: center, middle, inverse
 ---
 ## Ejemplos (I): SelfShell
 
-<img src="images/shelfsell.png"  width="75%"><br>
+<img src="/images/shelfsell.png"  width="75%"><br>
 <small><a href="https://selfsell.com/" target="_blank">Fuente: ShelfSell</a></small>
 ---
 ##  Valor de las criptomonedas para el consumidor
