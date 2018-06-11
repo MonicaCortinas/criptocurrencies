@@ -48,7 +48,7 @@ class: rigth, bottom, inverse
 
 ---
 
-class: rigth, center 
+class: rigth, top 
 
 # ¿Por qué se producen los intercambios en el mercado de criptomonedas?
 
@@ -56,44 +56,90 @@ class: rigth, center
 
 --
 
-## ¿de dónde viene ese valor?
+.center[## ¿de dónde viene ese valor?]
 
 ---
+class: middle
 
+# 1. Como producto de inversión:
+
+### <i class="fa fa-arrow-circle-right"></i> Se espera que su valor en el futuro será mayor que el actual
+### <i class="fa fa-arrow-circle-right"></i> "Futuro" puede ser largo, medio o corto plazo
+
+---
 background-image: url("images/petro.png")
-background-position: 80% 80%
+background-position: 30% 50% 
+class: left, middle, inverse
+
+
+# Ejemplo
+
+.center[.footnote[[Fuente: BBC](http://www.bbc.com/mundo/noticias-america-latina-43136611)]]
+
+
+---
 class: top, left
-background-size: 250pt
 
-# Como producto de inversión:
-### su valor en el futuro será mayor que el actual
+## El atractivo como producto de inversión a medio y largo plazo está muy condicionado por:
+
+### <i class="fa fa-arrow-circle-right"></i> la volatilidad a corto
+### <i class="fa fa-arrow-circle-right"></i> el valor "intrínseco" del activo 
+
+.pull-left[<img src="images/bitcoin.gif" alt="bitcoin" width="200px"/>]
+.pull-right[<img src="images/bitcoin2.gif" alt="bitcoin2" width="200px"/>]
+
+---
+class: middle
+
+# 2. Como medio de pago:
+
+### <i class="fa fa-plus-circle"></i> Descentralizado, no controlado
+### <i class="fa fa-minus-circle"></i> Poco eficaz, comisiones
+
+---
+background-image: url("images/bitcoinconference.png")
+background-position: 50% 50%
+class: top, left, inverse
 
 
-<small><a href="http://www.bbc.com/mundo/noticias-america-latina-43136611">Fuente: BBC</a></small>
+# Ejemplo (I)
+
+[Fuente: News Bitcoin](https://news.bitcoin.com/miami-bitcoin-conference-stops-accepting-bitcoin-due-to-fees-and-congestion/)
+
+
+---
+class: top, left, inverse
+
+
+# Ejemplo (I)
+
+Destinia
+---
+class: middle
+
+# 3. Otras razones: Como activo "habilitador"
+
+---
+class: middle
+
+# 4. Otras razones: Como indicador de pertenencia 
+### Rakuten, ¿amazon?, ¿facebook?
+![](images/rakuten.png)
+<small><a href="http://www.bolsamania.com/noticias/empresas/rakuten-lanzara-su-propia-criptodivisa-y-aplicara-la-tecnologia-blockchain-a-todas-sus-unidades-de-negocio--3159347.html" target="_blank">Fuente: BolsaManía</a></small>
 
 ---
 
-## a largo, medio o corto plazo
-
-.pull-left[![](images/bitcoin.gif)]
-.pull-right[![](images/bitcoin2.gif)]
-
-
----
-## ¿es un activo "habilitador"?
-
----
-
-## Ejemplos (I)
+## Ejemplos: SelfShell
 
 <img src="images/james.png" width="55%"><br>
-<small><a href="https://www.euribor.com.es/2018/05/22/el-jugador-del-bayern-de-munich-james-rodriguez-lanza-su-criptomoneda-para-impulsar-su-valor-de-marca/#" target="_blank">Fuente: Cinco Días</a></small>
----
-## Ejemplos (I): SelfShell
 
-<img src="/images/shelfsell.png"  width="75%"><br>
-<small><a href="https://selfsell.com/" target="_blank">Fuente: ShelfSell</a></small>
+<small><a href="https://www.euribor.com.es/2018/05/22/el-jugador-del-bayern-de-munich-james-rodriguez-lanza-su-criptomoneda-para-impulsar-su-valor-de-marca/#" target="_blank">Fuente: Cinco Días</a></small>
+
 ---
+## Como activo "habilitador"
+
+---
+
 ##  Valor de las criptomonedas para el consumidor
 
 Distintos segmentos por motivación: 
