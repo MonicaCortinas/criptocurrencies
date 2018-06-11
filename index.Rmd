@@ -12,12 +12,15 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+```{r, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
 
 background-image: url("images/bitcoin.jpg")
 background-position: 50% 50%
 class: center, bottom, inverse
 
-# ¿Qué es una criptomoneda?
+# ¿Qué es una criptomoneda? <i class="fa fa-file"></i>
 
 ---
 class: rigth, top
