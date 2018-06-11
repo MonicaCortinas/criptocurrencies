@@ -13,7 +13,7 @@ output:
       countIncrementalSlides: false
 ---
 
-background-image: url(images/bitcoin.jpg)
+background-image: url("images/bitcoin.jpg")
 background-position: 50% 50%
 class: center, bottom, inverse
 
@@ -22,17 +22,17 @@ class: center, bottom, inverse
 ---
 class: rigth, top
 
-# <i class="fab fa-bitcoin"></i> ¿Qué es una criptomoneda?
+# ¿Qué es una criptomoneda?
 
 ## Desde el punto de vista...
 
 --
 
-- ... técnico **<i class="fa fa-frown"></i>**
+- ... técnico 
 
 --
 
-- ... fiscal **<i class="fa fa-frown"></i> **
+- ... fiscal 
 
 --
 
