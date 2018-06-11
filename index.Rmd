@@ -20,33 +20,30 @@ background-image: url("images/bitcoin.jpg")
 background-position: 50% 50%
 class: center, bottom, inverse
 
-# ¿Qué es una criptomoneda? <i class="fa fa-file"></i>
+# ¿Qué es una criptomoneda? 
 
 ---
 class: rigth, top
 
-# ¿Qué es una criptomoneda?
 
 ## Desde el punto de vista...
 
 --
 
-- ... técnico 
+- ... ~~técnico~~ <i class="fas fa-times"></i>
 
 --
 
-- ... fiscal 
+- ... ~~fiscal~~ <i class="fas fa-times"></i>
 
 --
 
-- Desde el punto de vista del **mercado** **<i class="fa fa-smile"></i> **
+- Desde el punto de vista del **mercado** **<i class="fas fa-check"></i> **
 
 ---
 
 
-background-image: url(images/bitcoinconference.png)
-background-position: 50% 50%
-class: center, bottom, inverse
+class: title-slide-section-grey
 
 # Desde el punto de vista del consumidor:
 
