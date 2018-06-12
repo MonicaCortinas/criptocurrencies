@@ -65,8 +65,8 @@ class: middle
 
 --
 
-### <i class="fa fa-arrow-circle-right"></i> Se espera que su valor en el futuro será mayor que el actual
-### <i class="fa fa-arrow-circle-right"></i> "Futuro" puede ser largo, medio o corto plazo
+### **<i class="fa fa-arrow-circle-right"></i>** Se espera que su valor en el futuro será mayor que el actual
+### **<i class="fa fa-arrow-circle-right"></i>** "Futuro" puede ser largo, medio o corto plazo
 
 
 ---
@@ -84,11 +84,11 @@ class: top, left
 
 ## El atractivo como producto de inversión a medio y largo plazo está muy condicionado por:
 
-### <i class="fa fa-plus-circle"></i> el valor "intrínseco" del activo
+### **<i class="fa fa-plus-circle"></i>** el valor "intrínseco" del activo
 
 --
 
-### <i class="fa fa-minus-circle"></i> la volatilidad a corto
+### **<i class="fa fa-minus-circle"></i>** la volatilidad a corto
 
 .pull-left[<img src="images/bitcoin.gif" alt="bitcoin" width="200px"/>]
 .pull-right[<img src="images/bitcoin2.gif" alt="bitcoin2" width="200px"/>]
@@ -97,7 +97,7 @@ class: top, left
 class: left, top, inverse
 background-image: url("images/dogecoin.png")
 background-position: 50% 50% 
-background-size: 400pt
+background-size: 360pt
 
 # Ejemplo (II)
 
@@ -113,11 +113,11 @@ class: middle
 
 --
 
-### <i class="fa fa-plus-circle"></i> Descentralizado, no controlable,  **"resistencia a la censura"** interesante en determinados segmentos (y mercados)
+### **<i class="fa fa-plus-circle"></i>** Descentralizado, no controlable,  **"resistencia a la censura"** interesante en determinados segmentos (y mercados)
 
 --
 
-### <i class="fa fa-minus-circle"></i> Poco eficaz, comisiones, gasto energético
+### **<i class="fa fa-minus-circle"></i>** Poco eficaz, comisiones, gasto energético
 
 ---
 background-image: url("images/bitcoinconference.png")
@@ -133,8 +133,8 @@ class: top, left, inverse
 ---
 
 background-image: url("images/destinia.png")
-background-position: 50% 70%
-background-size: 400pt
+background-position: 50% 75%
+background-size: 380pt
 class: top, left, inverse
 
 
@@ -152,22 +152,21 @@ class: middle
 
 --
 
-### **<i class="fa fa-bitcoin"></i>** Bitcoin aplicación descentralizada para realizar pagos. No la única aplicación posible de la descentralización
+### **<i class="fa fa-bitcoin"></i>** Bitcoin: aplicación descentralizada para realizar pagos. No es la única aplicación posible de la descentralización.
 
 --
 
-### **<i class="fa fa-share-alt"></i>** Las criptomonedas permiten la actuación de la "mano invisible" incentivando la actuación de los pares certificando las operaciones
+### **<i class="fa fa-share-alt"></i>** Las criptomonedas permiten la actuación de la "mano invisible" incentivando la actuación de los pares certificando las operaciones.
 
 --
 
-### **<i class="fa fa-battery-quarter"></i>** El gasto energético actúa como coste de transacción proporcionando incentivos correctos
+### **<i class="fa fa-battery-quarter"></i>** El gasto energético actúa como coste de transacción proporcionando incentivos correctos.
 
 ---
 
 background-image: url("images/ethereum.png")
 background-position: 50% 65%
-background-size: 450pt
-class: top, center, inverse
+class: middle, left, inverse
 
 
 # Ejemplo (I): Ethereum: Plataforma descentralizada de aplicaciones descentralizadas
@@ -176,9 +175,8 @@ class: top, center, inverse
 ---
 
 background-image: url("images/filecoin.png")
-background-position: 50% 65%
-background-size: 400pt
-class: top, center, inverse
+background-position: 50% 50%
+class: middle, center, inverse
 
 
 # Ejemplo (II): FileCoin: Almacenamiento de Archivos
@@ -210,7 +208,7 @@ class: top, center, inverse
 
 # Ejemplo (I): Rakuten: Minorista japonés
 
-## <i class="fa fa-facebook-square"></i>acebook y <i class="fa fa-amazon"></i>mazon pueden ser los siguientes
+## **<i class="fa fa-facebook"></i>**acebook y **<i class="fa fa-amazon"></i>**mazon pueden ser los siguientes
 
 .footnote[<small><a href="http://www.bolsamania.com/noticias/empresas/rakuten-lanzara-su-propia-criptodivisa-y-aplicara-la-tecnologia-blockchain-a-todas-sus-unidades-de-negocio--3159347.html" target="_blank">Fuente: BolsaManía</a></small>]
 
@@ -218,7 +216,7 @@ class: top, center, inverse
 ---
 
 background-image: url("images/james.png")
-background-position: 50% 50%
+background-position: 50% 60%
 background-size: 400pt
 class: top, center, inverse
 
@@ -260,7 +258,7 @@ class: top, center, inverse
 
 class: title-slide-final, middle
 background-image: url("images/upnablanco.png")
-background-size: 55px
+background-size: 100px
 background-position: 9% 15%
 
 ## Gracias
@@ -268,7 +266,7 @@ background-position: 9% 15%
 |                                                                                                  |                                   |
 | :-----------------------------------------------------------------------------------------       | :-------------------------------- |
 | <a href="mailto:mcortinas@unavarra.es"><i class="fa fa-envelope-o"></i> </a>                     |mcortinas@unavarra.es              |
-| <a href="http://criptomcortinas.updog.co/#1" target="_blank"><i class="fa fa-link"></i> </a>     |.grey[http://criptomcortinas.updog.co/#1]|
+| <a href="http://criptomcortinas.updog.co/#1" target="_blank"><i class="fa fa-link"></i> </a>     |<a href="http://criptomcortinas.updog.co/#1" style="color:white" target="_blank"><span style="color:white">http://criptomcortinas.updog.co<span></a>|
 | <a href="https://twitter.com/MonicaCortinas" target="_blank"><i class="fa fa-twitter"></i> </a>  |@MonicaCortinas                    |
 
 
