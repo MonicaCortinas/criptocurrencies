@@ -5,7 +5,7 @@ author: "Mónica Cortiñas. INARBE-UPNA"
 date: "15 de junio de 2018"
 output:
   xaringan::moon_reader:
-    css: [default, rutgers, rutgers-fonts, propio.css]
+    css: [rutgers, rutgers-fonts, propio.css]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -18,7 +18,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 
 background-image: url("images/bitcoin.jpg")
 background-position: 50% 50%
-class: center, top, inverse
+class: left, top, inverse
 
 # ¿Qué es una criptomoneda? 
 
@@ -26,7 +26,7 @@ class: center, top, inverse
 
 --
 
-## ... ~~técnico~~ 
+## ... ~~técnico~~
 
 --
 
@@ -40,7 +40,7 @@ class: center, top, inverse
 background-image: url("images/volumen.png")
 background-position: 10% 10%
 background-size: 400pt
-class: rigth, bottom, inverse
+class: rigth, bottom
 
 <small><a href="https://coinmarketcap.com/">Fuente: CoinMarketCap</a></small>
 
@@ -48,33 +48,35 @@ class: rigth, bottom, inverse
 
 ---
 
-class: rigth, top 
+class: rigth, middle 
 
 # ¿Por qué se producen los intercambios en el mercado de criptomonedas?
 
-### Los individuos perciben que obtienen valor en el intercambio
+### Los individuos perciben que obtienen **valor** en el intercambio
 
 --
 
-.center[## ¿de dónde viene ese valor?]
+### ¿de dónde viene ese valor?, ¿cuál es la motivación de compra?
 
 ---
 class: middle
 
-# 1. Como producto de inversión:
+# 1. Como producto de inversión
+
+--
 
 ### <i class="fa fa-arrow-circle-right"></i> Se espera que su valor en el futuro será mayor que el actual
 ### <i class="fa fa-arrow-circle-right"></i> "Futuro" puede ser largo, medio o corto plazo
 
+
 ---
+class: middle, left, inverse
 background-image: url("images/petro.png")
 background-position: 30% 50% 
-class: left, middle, inverse
 
+.pull-left[# Ejemplo]
 
-# Ejemplo
-
-.center[.footnote[[Fuente: BBC](http://www.bbc.com/mundo/noticias-america-latina-43136611)]]
+.pull-right[.footnote[[Fuente: BBC](http://www.bbc.com/mundo/noticias-america-latina-43136611)]]
 
 
 ---
@@ -82,19 +84,40 @@ class: top, left
 
 ## El atractivo como producto de inversión a medio y largo plazo está muy condicionado por:
 
-### <i class="fa fa-arrow-circle-right"></i> la volatilidad a corto
-### <i class="fa fa-arrow-circle-right"></i> el valor "intrínseco" del activo 
+### <i class="fa fa-plus-circle"></i> el valor "intrínseco" del activo
+
+--
+
+### <i class="fa fa-minus-circle"></i> la volatilidad a corto
 
 .pull-left[<img src="images/bitcoin.gif" alt="bitcoin" width="200px"/>]
 .pull-right[<img src="images/bitcoin2.gif" alt="bitcoin2" width="200px"/>]
 
 ---
+class: left, top, inverse
+background-image: url("images/dogecoin.png")
+background-position: 50% 50% 
+background-size: 400pt
+
+# Ejemplo (II)
+
+.footnote[[Fuente: El Mundo](http://www.elmundo.es/f5/comparte/2018/01/22/5a621e6722601dde4a8b457a.html), [Datos en CoinMarket](https://coinmarketcap.com/es/currencies/dogecoin/)]
+
+
+
+
+---
 class: middle
 
-# 2. Como medio de pago:
+# 2. Como medio de pago
 
-### <i class="fa fa-plus-circle"></i> Descentralizado, no controlado
-### <i class="fa fa-minus-circle"></i> Poco eficaz, comisiones
+--
+
+### <i class="fa fa-plus-circle"></i> Descentralizado, no controlable,  **"resistencia a la censura"** interesante en determinados segmentos (y mercados)
+
+--
+
+### <i class="fa fa-minus-circle"></i> Poco eficaz, comisiones, gasto energético
 
 ---
 background-image: url("images/bitcoinconference.png")
@@ -102,57 +125,150 @@ background-position: 50% 50%
 class: top, left, inverse
 
 
-# Ejemplo (I)
+# Ejemplo (I): BitCoin Conference
 
-[Fuente: News Bitcoin](https://news.bitcoin.com/miami-bitcoin-conference-stops-accepting-bitcoin-due-to-fees-and-congestion/)
+[Fuente: Business Insider](http://www.businessinsider.com/bitcoin-conference-stops-accepting-bitcoin-network-fees-congestion-2018-1?IR=T)
 
 
 ---
+
+background-image: url("images/destinia.png")
+background-position: 50% 70%
+background-size: 400pt
 class: top, left, inverse
 
 
-# Ejemplo (I)
+# Ejemplo (II): Destinia
 
-Destinia
+Crecimiento de reservas 112% en 2018 con respecto a 2017
+
+[Fuente: preferente.com](http://www.preferente.com/noticias-de-agencias-de-viajes/el-bitcoin-dispara-las-reservas-de-una-ota-espanola-272035.html)
+
+
 ---
 class: middle
 
-# 3. Otras razones: Como activo "habilitador"
+# 3. Otras razones: como activo "habilitador" de aplicaciones descentralizadas
+
+--
+
+### **<i class="fa fa-bitcoin"></i>** Bitcoin aplicación descentralizada para realizar pagos. No la única aplicación posible de la descentralización
+
+--
+
+### **<i class="fa fa-share-alt"></i>** Las criptomonedas permiten la actuación de la "mano invisible" incentivando la actuación de los pares certificando las operaciones
+
+--
+
+### **<i class="fa fa-battery-quarter"></i>** El gasto energético actúa como coste de transacción proporcionando incentivos correctos
+
+---
+
+background-image: url("images/ethereum.png")
+background-position: 50% 65%
+background-size: 450pt
+class: top, center, inverse
+
+
+# Ejemplo (I): Ethereum: Plataforma descentralizada de aplicaciones descentralizadas
+
+.footnote[[ethereum.org](https://www.ethereum.org/)]
+---
+
+background-image: url("images/filecoin.png")
+background-position: 50% 65%
+background-size: 400pt
+class: top, center, inverse
+
+
+# Ejemplo (II): FileCoin: Almacenamiento de Archivos
+
+.footnote[[filecoin.io](https://filecoin.io/)]
+
+
 
 ---
 class: middle
 
-# 4. Otras razones: Como indicador de pertenencia 
-### Rakuten, ¿amazon?, ¿facebook?
-![](images/rakuten.png)
-<small><a href="http://www.bolsamania.com/noticias/empresas/rakuten-lanzara-su-propia-criptodivisa-y-aplicara-la-tecnologia-blockchain-a-todas-sus-unidades-de-negocio--3159347.html" target="_blank">Fuente: BolsaManía</a></small>
+# 4. Por último... como indicador de pertenencia a una comunidad
+
+--
+
+### **<i class="fa fa-shopping-bag"></i>** Sustituyendo a los antiguos programas de fidelización de clientes
+
+--
+
+### **<i class="fa fa-link"></i>** Creando nuevas comunidades y oportunidades de negocio
 
 ---
 
-## Ejemplos: SelfShell
+background-image: url("images/rakuten.png")
+background-position: 50% 70%
+background-size: 400pt
+class: top, center, inverse
 
-<img src="images/james.png" width="55%"><br>
 
-<small><a href="https://www.euribor.com.es/2018/05/22/el-jugador-del-bayern-de-munich-james-rodriguez-lanza-su-criptomoneda-para-impulsar-su-valor-de-marca/#" target="_blank">Fuente: Cinco Días</a></small>
+# Ejemplo (I): Rakuten: Minorista japonés
+
+## <i class="fa fa-facebook-square"></i>acebook y <i class="fa fa-amazon"></i>mazon pueden ser los siguientes
+
+.footnote[<small><a href="http://www.bolsamania.com/noticias/empresas/rakuten-lanzara-su-propia-criptodivisa-y-aplicara-la-tecnologia-blockchain-a-todas-sus-unidades-de-negocio--3159347.html" target="_blank">Fuente: BolsaManía</a></small>]
+
 
 ---
-## Como activo "habilitador"
+
+background-image: url("images/james.png")
+background-position: 50% 50%
+background-size: 400pt
+class: top, center, inverse
+
+## Ejemplos (II): James Rodríguez
+
+.footnote[<small><a href="https://www.euribor.com.es/2018/05/22/el-jugador-del-bayern-de-munich-james-rodriguez-lanza-su-criptomoneda-para-impulsar-su-valor-de-marca/#" target="_blank">Fuente: Cinco Días</a></small>]
+
 
 ---
 
-##  Valor de las criptomonedas para el consumidor
+background-image: url("images/faircoin.png")
+background-position: 50% 50%
+background-size: 700pt
+class: top, center, inverse
 
-Distintos segmentos por motivación: 
+## Ejemplos (III): Monedas sociales y de comercio local
 
-- Como elemento de diferenciación e identificación
-- Como servicio de experiencia
-- No una única motivación
+.footnote[<small><a href="http://www.eleconomista.es/economia/noticias/7959271/11/16/Barcelona-desplegara-en-2019-su-propia-moneda-social.html" target="_blank">eg: Barcelona</a></small>]
+
+
 ---
+
+# Por tanto, ¿qué podemos esperar?
+
+## Distintos segmentos en el mercado 
+
+- Como activo de inversión
+- Como activo medio de pago
+- Como activo posibilitador
+- Como elemento de pertenencia
+- Mezcla de todos o alguno de ellos..
+
 ## A tener en cuenta por el regulador
 
 - No es esperable desaparición del mercado a corto plazo
 - Aparición de nichos especializados en necesidades distintas
 
+---
 
+class: title-slide-final, middle
+background-image: url("images/upnablanco.png")
+background-size: 55px
+background-position: 9% 15%
+
+## Gracias
+
+|                                                                                                  |                                   |
+| :-----------------------------------------------------------------------------------------       | :-------------------------------- |
+| <a href="mailto:mcortinas@unavarra.es"><i class="fa fa-envelope-o"></i> </a>                     |mcortinas@unavarra.es              |
+| <a href="http://criptomcortinas.updog.co/#1" target="_blank"><i class="fa fa-link"></i> </a>     |.grey[http://criptomcortinas.updog.co/#1]|
+| <a href="https://twitter.com/MonicaCortinas" target="_blank"><i class="fa fa-twitter"></i> </a>  |@MonicaCortinas                    |
 
 
