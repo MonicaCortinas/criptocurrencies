@@ -7,4 +7,6 @@
             padding-left: 100px;  /* delete this for 4:3 aspect ratio */
     }
     
-@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css")   
+/* Add white link */
+    .alternativo {color: #FFFFFF;}
+   .link-blanco {color: white; text-decoration: none;}

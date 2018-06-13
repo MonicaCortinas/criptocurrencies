@@ -132,13 +132,29 @@ class: top, left, inverse
 
 ---
 
+background-image: url("images/potcoin.png")
+background-position: 50% 70%
+background-size: 450pt
+class: top, left, inverse
+
+
+## Ejemplo (II): [PotCoin](https://www.potcoin.com/)
+
+.footnote[ <a href="https://www.criptonoticias.com/adopcion/potcoin-patrocina-viaje-dennis-rodman-corea-norte/" target="_blank">Patrocinadores de Dennis Rodman</a>]
+
+
+
+
+
+---
+
 background-image: url("images/destinia.png")
 background-position: 50% 75%
 background-size: 380pt
 class: top, left, inverse
 
 
-# Ejemplo (II): Destinia
+# Ejemplo (III): Destinia
 
 Crecimiento de reservas 112% en 2018 con respecto a 2017
 
@@ -266,7 +282,7 @@ background-position: 9% 15%
 |                                                                                                  |                                   |
 | :-----------------------------------------------------------------------------------------       | :-------------------------------- |
 | <a href="mailto:mcortinas@unavarra.es"><i class="fa fa-envelope-o"></i> </a>                     |mcortinas@unavarra.es              |
-| <a href="http://criptomcortinas.updog.co/#1" target="_blank"><i class="fa fa-link"></i> </a>     |<a href="http://criptomcortinas.updog.co/#1" style="color:white" target="_blank"><span style="color:white">http://criptomcortinas.updog.co<span></a>|
+| <a href="http://criptomcortinas.updog.co/#1" target="_blank"><i class="fa fa-link"></i> </a>     |<a href="http://criptomcortinas.updog.co/#1" target="_blank"><span class="alternativo">criptomcortinas.updog.co<span></a>||
 | <a href="https://twitter.com/MonicaCortinas" target="_blank"><i class="fa fa-twitter"></i> </a>  |@MonicaCortinas                    |
 
 
